@@ -696,3 +696,415 @@
 
 
 
+# ------------------------------------------- ZADANIE 1.3.1 -------------------------------------------
+
+# for i in range(1, 11):
+#     print(i)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.2 -------------------------------------------
+
+# for i in range(2, 21, 2):
+#     print(i, end=" ")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.3 -------------------------------------------
+
+# n = int(input("Podaj liczbę n: "))
+
+# suma = 0
+
+# for i in range(1, n + 1):
+#     suma = suma + i
+
+# print("Suma liczb od 1 do", n, "wynosi:", suma)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.4 -------------------------------------------
+
+# slowo = input("Podaj dowolne słowo: ")
+
+# for litera in slowo:
+#     print(litera)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.5 -------------------------------------------
+
+# for i in range(1, 6):
+#     for j in range(1, 6):
+#         print(i * j, end="\t")
+#     print()
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.6 -------------------------------------------
+
+# tekst = input("Podaj dowolny tekst: ")
+
+# licznik = 0
+
+# for znak in tekst:
+#     licznik = licznik + 1
+
+# print("Liczba znaków:", licznik)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.7 -------------------------------------------
+
+# suma = 0
+
+# for i in range(5):
+#     liczba = float(input("Podaj liczbę: "))
+#     suma = suma + liczba
+
+# srednia = suma / 5
+
+# print("Średnia wynosi:", srednia)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.8 -------------------------------------------
+
+# najwieksza = None
+
+# for i in range(7):
+#     liczba = int(input("Podaj liczbę całkowitą: "))
+
+#     if najwieksza is None or liczba > najwieksza:
+#         najwieksza = liczba
+
+# print("Największa liczba to:", najwieksza)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.9 -------------------------------------------
+
+# suma = 0
+
+# liczba = int(input("Podaj liczbę (0 kończy program): "))
+
+# while liczba != 0:
+#     suma = suma + liczba
+#     liczba = int(input("Podaj kolejną liczbę (0 kończy program): "))
+
+# print("Suma liczb:", suma)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.10 -------------------------------------------
+
+# n = int(input("Podaj liczbę gwiazdek: "))
+
+# for i in range(n):
+#     print("*", end="")
+
+# print()
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.11 -------------------------------------------
+
+# tekst = input("Podaj tekst: ")
+
+# licznik = 0
+
+# for znak in tekst:
+#     if znak == "a":
+#         licznik = licznik + 1
+
+# print("Litera 'a' występuje", licznik, "razy")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.3.12 -------------------------------------------
+
+# import random
+
+# liczba = random.randint(1, 10)
+
+# proba = 0
+# zgadniete = False
+
+# while not zgadniete:
+
+#     zgadywana = int(input("Zgadnij liczbę (1-10): "))
+#     proba = proba + 1
+
+#     if zgadywana == liczba:
+#         zgadniete = True
+
+# print("Zgadłeś liczbę w", proba, "próbach")
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------- LISTA 1.4 -------------------------------------------
+# -------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.1 -------------------------------------------
+
+# najwieksza = max(7, 5, 6, 3, 8, 2)
+# najmniejsza = min(4, 7, 2, 3, 9, 8)
+
+# dlugosc = len("computer science")
+
+# print("Największa liczba:", najwieksza)
+# print("Najmniejsza liczba:", najmniejsza)
+# print("Długość napisu:", dlugosc)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.2 -------------------------------------------
+
+# def evenOdd(x):
+
+#     if x % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
+
+
+# print(evenOdd(16))
+# print(evenOdd(7))
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.3 -------------------------------------------
+
+# import math
+# import random
+
+# pierwiastek = math.sqrt(7)
+# logarytm = math.log(5)
+
+# kostka = random.randint(1, 6)
+
+# print("Pierwiastek z 7:", pierwiastek)
+# print("Logarytm naturalny z 5:", logarytm)
+# print("Rzut kostką:", kostka)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.4 -------------------------------------------
+
+# def myFun(x, y=50):
+
+#     print("x:", x)
+#     print("y:", y)
+
+
+# myFun(10)
+# myFun(10, 20)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.5 -------------------------------------------
+
+# def student(fname, lname):
+
+#     print("Imię:", fname)
+#     print("Nazwisko:", lname)
+
+
+# student(fname="Geeks", lname="Practice")
+# student(lname="Practice", fname="Geeks")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.6 -------------------------------------------
+
+# def zmien_liste(lista):
+
+#     lista[0] = 20
+
+
+# def zmien_liczbe(x):
+
+#     x = 20
+
+
+# lista = [1, 2, 3]
+# print("Lista przed:", lista)
+
+# zmien_liste(lista)
+
+# print("Lista po:", lista)
+
+
+# liczba = 10
+# print("Liczba przed:", liczba)
+
+# zmien_liczbe(liczba)
+
+# print("Liczba po:", liczba)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.7 -------------------------------------------
+
+# def outer():
+
+#     msg = "Hello"
+
+#     def inner():
+#         print(msg)
+
+#     inner()
+
+
+# outer()
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.8 -------------------------------------------
+
+# def factorial(n):
+
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+
+
+# print("Silnia 5! =", factorial(5))
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.9 -------------------------------------------
+
+# plik converters.py
+
+# def cm_to_inches(cm):
+
+#     return cm / 2.54
+
+
+# def feet_inches_to_cm(feet, inches):
+
+#     return feet * 30.48 + inches * 2.54
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.9 (plik główny) -------------------------------------------
+
+# import converters
+
+# print(converters.cm_to_inches(100))
+# print(converters.feet_inches_to_cm(5, 7))
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.4.10 -------------------------------------------
+
+# def add(a, b):
+
+#     return a + b
+
+
+# def subtract(a, b):
+
+#     return a - b
+
+
+# def main():
+
+#     print("Dodawanie:", add(5, 3))
+#     print("Odejmowanie:", subtract(5, 3))
+
+
+# if __name__ == "__main__":
+#     main()
+
+
+
