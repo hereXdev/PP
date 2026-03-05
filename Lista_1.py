@@ -5,7 +5,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.1 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.1 -------------------------------------------
 
 # print("Witaj w kalkulatorze BMI, podaj swoje dane: \n")
 
@@ -21,7 +21,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.2 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.2 -------------------------------------------
 
 # print("Kalkulator Dochodu Rodzinnego na Osobę")
 # ojciec = float(input("Podaj dochód ojca: "))
@@ -43,7 +43,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.3 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.3 -------------------------------------------
 
 # print("Kalkulator wzrostu CM na CAL i STOPE")
 # CM = float(input("Podaj CM: "))
@@ -62,7 +62,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.4 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.4 -------------------------------------------
 
 # import math
 
@@ -78,7 +78,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.5 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.5 -------------------------------------------
 
 # import math
 
@@ -100,7 +100,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.6 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.6 -------------------------------------------
 
 # dystans = float(input("Podaj dystans w km: "))
 # cena_paliwa = float(input("Podaj cenę paliwa za litr: "))
@@ -119,7 +119,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.7 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.7 -------------------------------------------
 
 # netto = float(input("Podaj kwotę netto: "))
 
@@ -137,7 +137,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.8 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.8 -------------------------------------------
 
 # wiek = int(input("Podaj swój wiek: "))
 # zwolnienie = wiek <= 26
@@ -153,7 +153,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.9 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.9 -------------------------------------------
 
 # haslo = input("Podaj hasło: ")
 # czy_poprawne = len(haslo) >= 8
@@ -166,7 +166,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.10 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.10 -------------------------------------------
 
 # rejestracja = input("Podaj numer rejestracyjny: ")
 
@@ -184,7 +184,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.11 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.11 -------------------------------------------
 
 # predkosc = float(input("Podaj prędkość km/h: "))
 
@@ -202,7 +202,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.12 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.12 -------------------------------------------
 
 # tekst = "Mr. John May, born on 1998-02-16"
 # imie = tekst[4:8]
@@ -219,7 +219,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.13 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.13 -------------------------------------------
 
 # telefon = input("Podaj numer telefonu (9 cyfr): ")
 
@@ -237,7 +237,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.14 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.14 -------------------------------------------
 
 # swift = input("Podaj kod SWIFT (8 znaków): ")
 
@@ -254,7 +254,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.15 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.15 -------------------------------------------
 
 # x = 7
 # y = 34
@@ -279,7 +279,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.16 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.16 -------------------------------------------
 
 # import random
 # komputer = random.randint(1, 6)
@@ -296,7 +296,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.17 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.17 -------------------------------------------
 
 # import random
 
@@ -319,7 +319,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.18 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.18 -------------------------------------------
 
 # liczba = int(input("Podaj liczbę całkowitą: "))
 
@@ -336,7 +336,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.19 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.19 -------------------------------------------
 
 # znak = input("Podaj znak: ")
 
@@ -350,7 +350,7 @@
 
 
 
-# ------------------------------------------- ZADANIE 1.20 -------------------------------------------
+# ------------------------------------------- ZADANIE 1.1.20 -------------------------------------------
 
 # kody = [67, 111, 111, 108, 33]
 
@@ -361,6 +361,334 @@
 #     tekst += znak
 
 # print("Odkodowany tekst:", tekst)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------- LISTA 1.2 -------------------------------------------
+# -------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.1 -------------------------------------------
+
+# predkosc = int(input("Podaj prędkość pojazdu (km/h): "))
+
+# if predkosc > 140:
+#     print("Przekroczenie prędkości!")
+# else:
+#     print("Jedziesz zgodnie z przepisami.")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.2 -------------------------------------------
+
+# liczba = int(input("Podaj liczbę całkowitą: "))
+
+# if liczba % 2 == 0:
+#     print("Liczba parzysta")
+# else:
+#     print("Liczba nieparzysta")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.3 -------------------------------------------
+
+# stan_konta = 500
+# kwota = float(input("Podaj kwotę zakupów: "))
+
+# if stan_konta >= kwota:
+#     print("Płatność zaakceptowana")
+# else:
+#     print("Brak środków")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.4 -------------------------------------------
+
+# poprawne = int(input("Podaj liczbę poprawnych odpowiedzi: "))
+# wszystkie = int(input("Podaj liczbę wszystkich pytań: "))
+
+# procent = (poprawne / wszystkie) * 100
+
+# if procent >= 50:
+#     print("Test zaliczony")
+# else:
+#     print("Test niezaliczony")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.5 -------------------------------------------
+
+# pensja = 5000
+# premia = input("Czy pracownik otrzymuje premię? (tak/nie): ")
+
+# if premia == "tak":
+#     pensja = pensja * 1.15
+
+# print("Ostateczna pensja:", pensja, "zł")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.6 -------------------------------------------
+
+# rozmiar = input("Podaj rozmiar (S, M, L, XL): ")
+
+# if rozmiar == "S":
+#     print("Small size")
+# elif rozmiar == "M":
+#     print("Medium size")
+# elif rozmiar == "L":
+#     print("Large size")
+# elif rozmiar == "XL":
+#     print("Extra large size")
+# else:
+#     print("Incorrect symbol")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.7 -------------------------------------------
+
+# a = float(input("Podaj pierwszą liczbę: "))
+# b = float(input("Podaj drugą liczbę: "))
+# operacja = input("Podaj operację (+, -, *, /): ")
+
+# if operacja == "+":
+#     wynik = a + b
+# elif operacja == "-":
+#     wynik = a - b
+# elif operacja == "*":
+#     wynik = a * b
+# elif operacja == "/":
+#     wynik = a / b
+# else:
+#     wynik = "Nieznana operacja"
+
+# print("Wynik:", wynik)
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.8 -------------------------------------------
+
+# tryb = input("Podaj tryb jazdy (A/M/E): ")
+# dystans = float(input("Podaj dystans w km: "))
+
+# if tryb == "A":
+#     spalanie = 7
+# elif tryb == "M":
+#     spalanie = 9
+# elif tryb == "E":
+#     spalanie = 6
+# else:
+#     print("Nieznany tryb")
+#     spalanie = 0
+
+# zuzycie = (dystans * spalanie) / 100
+
+# print("Zużycie paliwa:", zuzycie, "l")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.9 -------------------------------------------
+
+# miesiac = int(input("Podaj numer miesiąca (1-12): "))
+
+# if 1 <= miesiac <= 3:
+#     print("I kwartał")
+# elif 4 <= miesiac <= 6:
+#     print("II kwartał")
+# elif 7 <= miesiac <= 9:
+#     print("III kwartał")
+# elif 10 <= miesiac <= 12:
+#     print("IV kwartał")
+# else:
+#     print("Błędny numer miesiąca")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.10 -------------------------------------------
+
+# wiek = int(input("Podaj swój wiek: "))
+
+# if wiek < 13:
+#     print("Child")
+# elif 13 <= wiek <= 19:
+#     print("Teen")
+# elif 20 <= wiek <= 64:
+#     print("Adult")
+# else:
+#     print("Senior")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.11 -------------------------------------------
+
+# poprawny_login = "admin"
+# poprawne_haslo = "1234"
+
+# login = input("Podaj login: ")
+# haslo = input("Podaj hasło: ")
+
+# if login == poprawny_login and haslo == poprawne_haslo:
+#     print("Zalogowano poprawnie")
+# else:
+#     print("Błędne dane logowania")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.12 -------------------------------------------
+
+# wiek = int(input("Podaj wiek: "))
+
+# if wiek < 18 or wiek >= 65:
+#     print("Przysługuje zniżka")
+# else:
+#     print("Brak zniżki")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.13 -------------------------------------------
+
+# imie1 = input("Podaj imię pierwszej osoby: ")
+# wiek1 = int(input("Podaj wiek pierwszej osoby: "))
+
+# imie2 = input("Podaj imię drugiej osoby: ")
+# wiek2 = int(input("Podaj wiek drugiej osoby: "))
+
+# if wiek1 >= 18 and wiek2 >= 18:
+#     print("Obie osoby są pełnoletnie")
+# else:
+#     print("Nie wszystkie osoby są pełnoletnie")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.14 -------------------------------------------
+
+# x = float(input("Podaj pierwszą liczbę: "))
+# y = float(input("Podaj drugą liczbę: "))
+
+# if not (x < 0 and y < 0):
+#     print("Przynajmniej jedna liczba nie jest ujemna")
+# else:
+#     print("Obie liczby są ujemne")
+
+
+
+
+
+
+# ------------------------------------------- ZADANIE 1.2.15 -------------------------------------------
+
+# ean = input("Podaj kod EAN-13: ")
+
+# if len(ean) == 13 and ean.isdigit():
+
+#     if ean[:3] == "590":
+#         print("Poprawny kod EAN-13 - produkt z Polski")
+#     else:
+#         print("Poprawny kod EAN-13 - produkt z innego kraju")
+
+# else:
+#     print("Niepoprawny kod EAN-13")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------- LISTA 1.3 -------------------------------------------
+# -------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
